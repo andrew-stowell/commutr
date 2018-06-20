@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.date {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  width: 500px;
+  padding: 50px;
+}
+
+.form-section--morning {
+  background: #e8817f;
+  color: #efefef;
+}
+
+.form-section--morning button[type="button"] {
+  background: none;
+  border: 2px solid #101010;
+  margin-top: 15px;
+  color: #101010;
+}
+
+.form-section--evening {
+  background: #311f62;
+  color: #010101;
+}
+
+.form-section--evening button[type="button"] {
+  background: none;
+  border: 2px solid #efefef;
+  margin-top: 15px;
+  color: #efefef;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 20px 35px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background: rgba(114, 140, 20, .5);
+  border: 2px solid #728C14;
+  margin-top: 30px;
+}
+
+button[type="button"] {
+  margin-top: 15px;
+}
