@@ -198,3 +198,48 @@ ul.nav li a.active {
   color: white;
   background: var(--evening);
 }
+
+/* log in/out page */
+
+
+.signInUpForm form {
+  background: var(--morning);
+  padding: 40px 30px;
+  text-align: left;
+  align-items: normal;
+}
+
+.signInUpForm form button[type="submit"] {
+  align-self: center;
+  background: var(--evening);
+  border: none;
+  color: white;
+}
+
+.signInUpForm form label {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.signInUpForm form input {
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: none;
+}
+
+.signInUpForm .error {
+  font-style: italic;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.logoutForm {
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.logoutForm button {
+  margin: auto;
+  margin-top: 20px;
+}
